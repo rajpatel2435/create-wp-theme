@@ -1,14 +1,34 @@
 {
-    "name": "create-wp-theme",
+    "name": "clone-wp-theme",
     "version": "1.0.0",
+    "private": false,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rajpatel2435/create-wp-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/rajpatel2435/create-wp-theme/issues"
+    },
+    "homepage": "https://github.com/rajpatel2435/create-wp-theme",
     "description": "A CLI tool for creating WordPress themes (Flynt as well as Sage-Vite  ) by selecting from predefined templates and cloning repositories.",
+    "author": "Raj Patel",
+    "license": "MIT",
+    "keywords": [
+        "wordpress",
+        "sage",
+        "vite",
+        "theme",
+        "Flynt",
+        "Wordpress Theme",
+        "Sage Vite"
+    ],
     "bin": {
-        "create-raj-wp-theme": "./dist/bin/create-wp-theme.js"
+        "clone-wp-theme": "./dist/bin/create-wp-theme.js"
     },
     "dependencies": {
         "inquirer": "^8.2.6"
     },
     "files": [
-    "dist"
-  ]
+        "dist"
+    ]
 }

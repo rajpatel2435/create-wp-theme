@@ -49,6 +49,9 @@ function createWpTheme() {
     execSync(`git clone ${repoUrl} ${projectName}`, { stdio: 'inherit' });
 
     console.log(`\n${theme} theme installed successfully!`);
+
+    console.log(`\n cd -> ${projectName}`);
+    
   });
 }
 
