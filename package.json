@@ -1,0 +1,14 @@
+{
+    "name": "create-wp-theme",
+    "version": "1.0.0",
+    "description": "A CLI tool for creating WordPress themes (Flynt as well as Sage-Vite  ) by selecting from predefined templates and cloning repositories.",
+    "bin": {
+        "create-raj-wp-theme": "./dist/bin/create-wp-theme.js"
+    },
+    "dependencies": {
+        "inquirer": "^8.2.6"
+    },
+    "files": [
+    "dist"
+  ]
+}
